@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load dataset yang telah di export sebelumnya
-all_df = pd.read_csv('all_data.csv')
+all_df = pd.read_csv('dashboard/all_data.csv')
 
 # Convert 'dteday' ke datetime format untuk memastikan tidak ada error terkait tipe data
 all_df['dteday'] = pd.to_datetime(all_df['dteday'])
